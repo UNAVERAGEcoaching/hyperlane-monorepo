@@ -69,8 +69,7 @@ export function getRenzoHook(
     type: HookType.AGGREGATION,
     hooks: [
       {
-        type: HookType.MERKLE_TREE, // Replace defaultHook with this
-        // Add other fields if required (e.g., owner or address if needed)
+        type: HookType.MERKLE_TREE,
       },
       {
         type: HookType.PROTOCOL_FEE,
